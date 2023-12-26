@@ -99,6 +99,7 @@ def copyFile(f):
         print(f'Copy {f}\nto {cf.replace("//", "/")}')
         shutil.copyfile(f, cf)
 
+###############################################################################
 # Copy all files with a given extension
 def copy(path):
     global extension, files, ignore
