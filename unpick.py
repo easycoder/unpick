@@ -185,7 +185,7 @@ def deleteDuplicates(path):
 
 ###############################################################################
 def showHelp():
-    print('A tool to list extensions, copy/delete all files of a given type, remove duplicates etc.')
+    print('A recursive tool to list extensions, copy/delete all files\nof a given type, remove duplicates etc.')
     print('Syntax:\nunpick.py [options] [path]')
     print('Options (note that many of these are mutually exclusive):')
     print('   -types, -extensions, -ext -- list all file extensions')
@@ -195,7 +195,7 @@ def showHelp():
     print('   -remove, -rem -- delete all duplicates with the given extension')
     print('   -copy -- copy files to target directory')
     print('   -move -- move files to target directory')
-    print('   -type, -extension, -ext -- specify an extension')
+    print('   -type, -extension, -ext -- specify the extension')
     print('   -target [path] -- copy/move to this target directory')
     print('   -flatten -- don\'t maintain directory structure in copy/move')
     print('   -ignore -- ignore duplicates in copy/move')
