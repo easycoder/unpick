@@ -6,9 +6,10 @@ So that leaves writing my own, and here it is. It's called unpick.py and it can 
 
 Running the tool with no arguments outputs some basic help, as follows:
 ```
-A tool to list extensions, copy/delete all files of a given type, remove duplicates etc.
+A recursive tool to list extensions, copy/move all files
+of a given type, remove duplicates etc.
 Syntax:
-unpick.py [options] [path]
+unpick [options] [path]
 Options (note that many of these are mutually exclusive):
    -types, -extensions, -ext -- list all file extensions
    -list  -- list all files with the given extension
@@ -17,7 +18,7 @@ Options (note that many of these are mutually exclusive):
    -remove, -rem -- delete all duplicates with the given extension
    -copy -- copy files to target directory
    -move -- move files to target directory
-   -type, -extension, -ext -- specify an extension
+   -type, -extension, -ext -- specify the extension
    -target [path] -- copy/move to this target directory
    -flatten -- don't maintain directory structure in copy/move
    -ignore -- ignore duplicates in copy/move
