@@ -2,7 +2,7 @@ My partner takes a lot of photos. Since smartphones replaced compact cameras for
 
 There are two ways to deal with the problem. One is to find a tool that will do the job; the other is to write one. The problem with the first of these is that it will take time to find such a tool, largely because I can't figure a suitable question to ask. Having found a tool I then have to learn how to use it. Unless it's top-drawer commercial software it will lack a comprehensive manual, so this part could take hours of not days. Then there's finally the good chance that it won't actually do the job after all, so the whole exercise is wasted. And if the original search came up with several products, everything has to be repeated for each one.
 
-So that leaves writing my own. It's the Christmas break right now, so what better time, with none of the usual work pressures. I decided to write the thing in command-line Python; you'll find the code in the EasyCoder repository at http://xxxxxxx. By the time you read this the repo version may well have moved on, so the documentation below may well be out of date.
+So that leaves writing my own. It's the Christmas break right now, so what better time, with none of the usual work pressures. I decided to write the thing in command-line Python; you'll find the code in the EasyCoder repository at https://github.com/easycoder/unpick. By the time you read this the repo version may well have moved on, so the documentation below may well be out of date.
 
 Running the tool with no arguments outputs some basic help, as follows:
 ```
